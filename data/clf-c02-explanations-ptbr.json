@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "language": "pt-BR",
+  "reviewedThrough": "q128",
+  "explanations": {
+    "q004": {
+      "A": "O princípio do menor privilégio é uma prática de segurança e controle de acesso: cada identidade deve receber apenas as permissões necessárias. É importante na AWS, mas não é um princípio de confiabilidade.",
+      "B": "Provisionar recursos automaticamente conforme a demanda ajuda a carga de trabalho a continuar operando quando as condições mudam. Essa capacidade de adaptação contribui diretamente para a confiabilidade.",
+      "C": "Nem todos os serviços AWS são globais; muitos são regionais. Além disso, alcance global é um conceito diferente de confiabilidade, que trata da capacidade de uma carga continuar funcionando e se recuperar de falhas.",
+      "D": "Compensações ou créditos por indisponibilidade podem fazer parte de um SLA, mas são uma consequência contratual de uma falha. Eles não aumentam a confiabilidade nem ajudam o sistema a continuar funcionando.",
+      "E": "Recuperar-se rapidamente de falhas é parte central da confiabilidade: a arquitetura deve detectar problemas, se recuperar e continuar entregando sua função corretamente."
+    },
+    "q010": {
+      "A": "O roteamento baseado em latência do Route 53 direciona usuários para o endpoint com menor latência entre os disponíveis. Se toda a computação continuar apenas em Tóquio, ele não cria por si só uma infraestrutura mais próxima dos usuários dos EUA.",
+      "B": "Registrar um domínio nos EUA muda o nome usado para acessar a aplicação, mas não muda a localização física dos servidores. Portanto, não reduz a latência de rede.",
+      "C": "Construir um novo data center nos EUA poderia aproximar a infraestrutura dos usuários, mas adicionaria alto investimento e complexidade operacional, contrariando o requisito de minimizar custos.",
+      "D": "Implantar novas instâncias EC2 em uma Região dos EUA coloca a capacidade computacional mais perto dos usuários americanos, reduzindo a distância de rede e, consequentemente, a latência."
+    },
+    "q013": {
+      "A": "Construir segurança em todas as camadas está relacionado à proteção da carga de trabalho e defesa em profundidade, não ao ajuste dinâmico de capacidade para reduzir custos.",
+      "B": "Paralelizar tarefas busca aumentar desempenho e throughput distribuindo trabalho simultaneamente; não descreve aumentar e reduzir capacidade conforme a demanda.",
+      "C": "Elasticidade é justamente ajustar recursos para cima ou para baixo conforme a demanda. Isso reduz sobreprovisionamento e permite pagar por uma capacidade mais próxima da realmente necessária.",
+      "D": "Uma arquitetura monolítica concentra componentes em uma unidade fortemente acoplada. Isso não representa a prática de ajustar dinamicamente a capacidade e pode inclusive dificultar o escalonamento independente."
+    },
+    "q014": {
+      "A": "Na AWS, recursos podem ser provisionados em minutos, permitindo experimentar, implantar e alterar soluções rapidamente. Isso aumenta velocidade e agilidade.",
+      "B": "Armazenamento na AWS não é ilimitado e gratuito. Serviços como Amazon S3 e EBS possuem cobrança conforme uso e características do serviço.",
+      "C": "O cliente não possui controle completo da infraestrutura física. Data centers, hardware e parte da rede física são administrados pela AWS.",
+      "D": "Usar AWS não significa que a AWS passa a operar automaticamente as aplicações do cliente. As responsabilidades variam por serviço e o cliente continua responsável por suas aplicações e configurações.",
+      "E": "A AWS é responsável pela segurança física de seus data centers e pela infraestrutura subjacente. Isso reduz a carga operacional do cliente, embora a segurança continue seguindo o modelo de responsabilidade compartilhada."
+    },
+    "q015": {
+      "A": "Tratar a aplicação como uma única unidade coesa descreve uma arquitetura monolítica e fortemente acoplada, justamente o oposto do desacoplamento.",
+      "B": "Desacoplar reduz dependências diretas entre componentes. Assim, um componente pode falhar, escalar ou ser alterado com menor impacto sobre os demais, aumentando resiliência e flexibilidade.",
+      "C": "Desacoplamento não significa tornar atualizações de uma aplicação monolítica mais fáceis; a ideia é separar responsabilidades para que componentes possam evoluir de forma mais independente.",
+      "D": "Registrar chamadas de API é uma função associada ao AWS CloudTrail. Isso é auditoria e observabilidade, não uma vantagem arquitetural do desacoplamento."
+    },
+    "q019": {
+      "A": "Elasticidade no contexto da AWS refere-se principalmente à capacidade de ajustar recursos de nuvem sob demanda; ela não significa que a AWS escalará automaticamente a infraestrutura física on-premises do cliente.",
+      "B": "Elastic Load Balancing distribui tráfego entre destinos, mas não cria ou remove instâncias por conta própria. O ajuste automático de capacidade é normalmente realizado com mecanismos como Auto Scaling.",
+      "C": "Reduzir interdependências descreve baixo acoplamento ou desacoplamento. Isso melhora resiliência e manutenção, mas é um princípio diferente de elasticidade.",
+      "D": "Elasticidade permite provisionar e remover recursos conforme mudanças de demanda, aumentando capacidade quando necessário e reduzindo-a quando a demanda cai."
+    },
+    "q023": {
+      "A": "PaaS é um modelo reconhecido de computação em nuvem, no qual a plataforma necessária para desenvolver e executar aplicações é fornecida sem que o cliente gerencie toda a infraestrutura subjacente.",
+      "B": "IaaS é um dos modelos clássicos de computação em nuvem e fornece recursos como computação, armazenamento e rede virtualizados.",
+      "C": "SaaS é um modelo reconhecido em que uma aplicação completa é fornecida ao usuário como serviço, sem que ele administre a infraestrutura ou plataforma subjacente.",
+      "D": "No contexto da classificação tradicional cobrada pela AWS, os três modelos são IaaS, PaaS e SaaS. NaaS não faz parte desse trio de modelos de serviço."
+    },
+    "q065": {
+      "A": "Componentes fortemente acoplados possuem dependências diretas; uma falha ou alteração em um componente pode afetar os demais e dificultar escalabilidade e manutenção independentes.",
+      "B": "Componentes fracamente acoplados podem escalar, falhar e evoluir com maior independência. Isso reduz falhas em cascata e favorece arquiteturas resilientes e escaláveis.",
+      "C": "Uma arquitetura monolítica reúne componentes em uma única unidade, dificultando escalonamento e implantação independentes. Não é o padrão associado ao baixo acoplamento recomendado para arquiteturas distribuídas.",
+      "D": "Manter estado localmente em uma instância pode prender uma sessão àquele recurso e dificultar distribuição horizontal. Arquiteturas stateless, quando apropriadas, facilitam substituição e escalabilidade dos componentes."
+    },
+    "q077": {
+      "A": "A AWS não reduz o provisionamento por meio de um sistema tradicional de tickets de TI. Um dos benefícios da nuvem é justamente o autoatendimento sob demanda por console e APIs.",
+      "B": "Validação automática de código pode ajudar na qualidade de software, mas não é o mecanismo que reduz o tempo necessário para provisionar infraestrutura.",
+      "C": "APIs, SDKs e infraestrutura como código permitem criar e configurar recursos programaticamente, reduzindo o tempo em comparação com compra, entrega e instalação de hardware físico.",
+      "D": "AWS não simplesmente automatiza pedidos aos fornecedores tradicionais da empresa; ela fornece os próprios serviços de nuvem sob demanda, eliminando grande parte desse processo de aquisição de infraestrutura."
+    },
+    "q084": {
+      "A": "Cloud-native normalmente descreve aplicações projetadas para aproveitar características da nuvem. O cenário apresentado mantém uma dependência de uma aplicação legada no data center corporativo, portanto o termo não descreve corretamente o modelo.",
+      "B": "AWS Partner Network é o ecossistema de parceiros da AWS e não um modelo de implantação que combine recursos locais e de nuvem.",
+      "C": "A solução combina servidores EC2 na AWS com uma aplicação no data center da empresa. A integração de infraestrutura de nuvem e on-premises caracteriza uma arquitetura híbrida.",
+      "D": "IaaS descreve um modelo de serviço que oferece computação, armazenamento e rede virtualizados. Ele não descreve, por si só, a combinação entre ambientes AWS e on-premises mostrada no cenário."
+    },
+    "q099": {
+      "A": "Automação reduz tarefas manuais e permite operações repetíveis, mas distribuir a carga entre AZs tem como objetivo principal tolerar falhas de infraestrutura.",
+      "B": "Agilidade está relacionada à capacidade de experimentar e implantar mudanças rapidamente. Distribuição entre AZs, neste caso, está ligada à resiliência diante de falhas.",
+      "C": "Distribuir a carga por várias Availability Zones permite que a aplicação continue operando se uma AZ tiver problemas. Isso representa projetar assumindo que componentes podem falhar.",
+      "D": "Elasticidade é aumentar ou reduzir recursos de acordo com a demanda. Usar múltiplas AZs trata principalmente de disponibilidade e tolerância a falhas, não de variação de capacidade."
+    },
+    "q128": {
+      "A": "Múltiplas AZs aumentam proteção contra falha de uma AZ, mas continuam pertencendo à mesma Região. Para um desastre que comprometa toda a Região, uma estratégia multi-Region seria necessária.",
+      "B": "Ao distribuir a aplicação por múltiplas Availability Zones, uma falha isolada em uma AZ pode ser absorvida pelas demais, aumentando a disponibilidade da aplicação.",
+      "C": "AZs de uma mesma Região são separadas fisicamente, mas conectadas por redes de baixa latência e não existem para fornecer cobertura geográfica distante aos usuários. Para alcance geográfico, consideram-se diferentes Regiões e serviços globais apropriados.",
+      "D": "Distribuir entre AZs melhora disponibilidade, mas não necessariamente aproxima a aplicação do usuário final. Portanto, não é uma estratégia cujo benefício principal seja reduzir latência do usuário."
+    }
+  }
+}
