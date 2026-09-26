@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "language": "pt-BR",
-  "reviewedThrough": "q128",
+  "reviewedThrough": "q143",
   "explanations": {
     "q004": {
       "A": "O princípio do menor privilégio é uma prática de segurança e controle de acesso: cada identidade deve receber apenas as permissões necessárias. É importante na AWS, mas não é um princípio de confiabilidade.",
@@ -76,6 +76,12 @@
       "B": "Ao distribuir a aplicação por múltiplas Availability Zones, uma falha isolada em uma AZ pode ser absorvida pelas demais, aumentando a disponibilidade da aplicação.",
       "C": "AZs de uma mesma Região são separadas fisicamente, mas conectadas por redes de baixa latência e não existem para fornecer cobertura geográfica distante aos usuários. Para alcance geográfico, consideram-se diferentes Regiões e serviços globais apropriados.",
       "D": "Distribuir entre AZs melhora disponibilidade, mas não necessariamente aproxima a aplicação do usuário final. Portanto, não é uma estratégia cujo benefício principal seja reduzir latência do usuário."
+    },
+    "q143": {
+      "A": "Implantar a aplicação em várias Availability Zones protege contra falhas isoladas de uma AZ, mas todas essas AZs continuam dentro da mesma AWS Region. Se um desastre afetar toda a área geográfica da Região, uma estratégia somente multi-AZ pode não ser suficiente.",
+      "B": "Uma arquitetura híbrida combina recursos de nuvem e on-premises, mas, se ambos permanecerem na mesma área geográfica afetada pelo desastre, os dois ambientes continuam expostos ao mesmo evento. O fato de ser híbrida não fornece separação geográfica por si só.",
+      "C": "Implantar a aplicação em múltiplas AWS Regions, localizadas em áreas geográficas distintas, permite manter uma cópia da carga de trabalho fora da Região afetada. Isso oferece proteção contra a indisponibilidade de uma Região inteira.",
+      "D": "AWS Artifact não é um serviço para armazenar ou replicar artefatos de aplicações. Ele fornece acesso sob demanda a documentos de segurança e conformidade da AWS, como relatórios de auditoria e certificações. Portanto, além de não resolver a recuperação multi-Region da aplicação, a alternativa atribui ao AWS Artifact uma função que ele não possui."
     }
   }
 }
