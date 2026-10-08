@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-10-08",
   "cards": [
     {
@@ -2717,6 +2717,226 @@
         "billing"
       ],
       "id": "fc240"
+    },
+    {
+      "id": "fc241",
+      "domain": 1,
+      "service": "AWS Sustainability Pillar",
+      "question": "Como reduzir impacto ambiental na arquitetura?",
+      "answer": "O pilar de **sustentabilidade** busca reduzir impactos ambientais de workloads na nuvem.",
+      "keywords": [
+        "sustentabilidade",
+        "well architected"
+      ]
+    },
+    {
+      "id": "fc242",
+      "domain": 1,
+      "service": "Operational Excellence Pillar",
+      "question": "Qual pilar trata operações e melhoria contínua?",
+      "answer": "**Excelência operacional** enfatiza operações como código, observabilidade e melhoria contínua.",
+      "keywords": [
+        "operações",
+        "pilar"
+      ]
+    },
+    {
+      "id": "fc243",
+      "domain": 1,
+      "service": "Reliability Pillar",
+      "question": "Qual pilar trata recuperação automática de falhas?",
+      "answer": "**Confiabilidade** envolve recuperação de falhas, dimensionamento e atendimento da demanda.",
+      "keywords": [
+        "reliability",
+        "pilar"
+      ]
+    },
+    {
+      "id": "fc244",
+      "domain": 1,
+      "service": "Performance Efficiency Pillar",
+      "question": "Qual pilar trata seleção eficiente de recursos?",
+      "answer": "**Eficiência de desempenho** prioriza usar recursos adequados e ajustar capacidade conforme a demanda.",
+      "keywords": [
+        "performance",
+        "pilar"
+      ]
+    },
+    {
+      "id": "fc245",
+      "domain": 1,
+      "service": "Cost Optimization Pillar",
+      "question": "Qual pilar evita gastos desnecessários?",
+      "answer": "**Otimização de custos** foca mensuração, eliminação de desperdício e escolha do modelo de preço.",
+      "keywords": [
+        "cost",
+        "pilar"
+      ]
+    },
+    {
+      "id": "fc246",
+      "domain": 1,
+      "service": "Security Pillar",
+      "question": "Qual pilar protege informações e sistemas?",
+      "answer": "**Segurança** inclui identidade, detecção, proteção de dados e resposta a incidentes.",
+      "keywords": [
+        "security",
+        "pilar"
+      ]
+    },
+    {
+      "id": "fc247",
+      "domain": 2,
+      "service": "S3 Block Public Access",
+      "question": "Como impedir exposição pública acidental de buckets?",
+      "answer": "**S3 Block Public Access** aplica controles para restringir acesso público a buckets e objetos.",
+      "keywords": [
+        "S3",
+        "público"
+      ]
+    },
+    {
+      "id": "fc248",
+      "domain": 2,
+      "service": "AWS IAM Access Analyzer",
+      "question": "Como identificar acesso externo indesejado?",
+      "answer": "**IAM Access Analyzer** identifica permissões e recursos acessíveis fora da zona de confiança.",
+      "keywords": [
+        "IAM",
+        "acesso externo"
+      ]
+    },
+    {
+      "id": "fc249",
+      "domain": 2,
+      "service": "Amazon VPC Flow Logs",
+      "question": "Como registrar metadados de tráfego de rede?",
+      "answer": "**VPC Flow Logs** registra informações sobre tráfego IP em interfaces de rede.",
+      "keywords": [
+        "rede",
+        "logs"
+      ]
+    },
+    {
+      "id": "fc250",
+      "domain": 2,
+      "service": "AWS Detective vs GuardDuty",
+      "question": "Qual detecta e qual ajuda a investigar?",
+      "answer": "**GuardDuty** gera descobertas de ameaças; **Detective** ajuda a **investigá-las**.",
+      "keywords": [
+        "ameaça",
+        "investigação"
+      ]
+    },
+    {
+      "id": "fc251",
+      "domain": 3,
+      "service": "Amazon ECR",
+      "question": "Onde armazenar imagens Docker privadas?",
+      "answer": "**Elastic Container Registry** é registro gerenciado para **imagens de contêiner**.",
+      "keywords": [
+        "Docker",
+        "registry"
+      ]
+    },
+    {
+      "id": "fc252",
+      "domain": 3,
+      "service": "Amazon S3 Transfer Acceleration",
+      "question": "Como acelerar uploads distantes ao S3?",
+      "answer": "**Transfer Acceleration** usa edge locations para melhorar transferências de longa distância para buckets.",
+      "keywords": [
+        "S3",
+        "upload"
+      ]
+    },
+    {
+      "id": "fc253",
+      "domain": 3,
+      "service": "AWS Database Migration Service vs Schema Conversion",
+      "question": "Dados ou conversão de esquema?",
+      "answer": "**DMS** move e replica dados; **Schema Conversion** ajuda a converter esquemas entre mecanismos.",
+      "keywords": [
+        "DMS",
+        "schema"
+      ]
+    },
+    {
+      "id": "fc254",
+      "domain": 3,
+      "service": "Amazon RDS Proxy",
+      "question": "Como gerenciar muitas conexões ao banco?",
+      "answer": "**RDS Proxy** agrupa e reutiliza conexões de aplicações a bancos relacionais compatíveis.",
+      "keywords": [
+        "proxy",
+        "conexões"
+      ]
+    },
+    {
+      "id": "fc255",
+      "domain": 3,
+      "service": "Amazon CloudWatch Logs",
+      "question": "Onde centralizar logs de aplicações?",
+      "answer": "**CloudWatch Logs** coleta, armazena e permite consultar logs de serviços e aplicações.",
+      "keywords": [
+        "logs",
+        "monitoramento"
+      ]
+    },
+    {
+      "id": "fc256",
+      "domain": 3,
+      "service": "Amazon EventBridge Scheduler",
+      "question": "Como disparar tarefas em horários definidos?",
+      "answer": "**EventBridge Scheduler** executa tarefas em horários únicos ou recorrentes.",
+      "keywords": [
+        "schedule",
+        "eventos"
+      ]
+    },
+    {
+      "id": "fc257",
+      "domain": 3,
+      "service": "AWS Elastic Disaster Recovery",
+      "question": "Como recuperar servidores após desastre?",
+      "answer": "**Elastic Disaster Recovery** replica servidores e auxilia na recuperação de workloads.",
+      "keywords": [
+        "DR",
+        "replicação"
+      ]
+    },
+    {
+      "id": "fc258",
+      "domain": 3,
+      "service": "Amazon Managed Grafana",
+      "question": "Qual serviço gerenciado para dashboards Grafana?",
+      "answer": "**Managed Grafana** oferece visualização e dashboards de métricas e logs.",
+      "keywords": [
+        "dashboard",
+        "observabilidade"
+      ]
+    },
+    {
+      "id": "fc259",
+      "domain": 4,
+      "service": "AWS Support account billing",
+      "question": "É necessário plano pago para dúvidas de cobrança?",
+      "answer": "**Não**. O suporte de **conta e faturamento** está disponível no plano Basic.",
+      "keywords": [
+        "billing",
+        "basic"
+      ]
+    },
+    {
+      "id": "fc260",
+      "domain": 4,
+      "service": "AWS Enterprise Support TAM",
+      "question": "Qual palavra-chave indica Enterprise Support?",
+      "answer": "A expressão **TAM designado** é uma pista forte para **Enterprise Support**.",
+      "keywords": [
+        "TAM",
+        "enterprise"
+      ]
     }
   ]
 }
