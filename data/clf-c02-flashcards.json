@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-10-08",
   "cards": [
     {
@@ -1013,6 +1013,1710 @@
         "legado",
         "TAM"
       ]
+    },
+    {
+      "domain": 1,
+      "service": "IaaS",
+      "question": "O que caracteriza infraestrutura como serviço?",
+      "answer": "**IaaS** oferece recursos de computação, rede e armazenamento; o cliente gerencia **SO e aplicações**.",
+      "keywords": [
+        "IaaS",
+        "EC2",
+        "infraestrutura"
+      ],
+      "id": "fc088"
+    },
+    {
+      "domain": 1,
+      "service": "PaaS",
+      "question": "O que caracteriza plataforma como serviço?",
+      "answer": "**PaaS** abstrai parte da infraestrutura e permite focar no **código e deploy**.",
+      "keywords": [
+        "PaaS",
+        "plataforma",
+        "deploy"
+      ],
+      "id": "fc089"
+    },
+    {
+      "domain": 1,
+      "service": "SaaS",
+      "question": "O que caracteriza software como serviço?",
+      "answer": "**SaaS** entrega aplicação pronta pela internet, sem instalação e administração da infraestrutura pelo cliente.",
+      "keywords": [
+        "SaaS",
+        "software",
+        "aplicação"
+      ],
+      "id": "fc090"
+    },
+    {
+      "domain": 1,
+      "service": "Nuvem pública",
+      "question": "O que é nuvem pública?",
+      "answer": "Recursos de um provedor são oferecidos pela internet a múltiplos clientes, com **isolamento lógico**.",
+      "keywords": [
+        "public cloud",
+        "multitenancy"
+      ],
+      "id": "fc091"
+    },
+    {
+      "domain": 1,
+      "service": "Nuvem híbrida",
+      "question": "Quando usar nuvem híbrida?",
+      "answer": "Combina **infraestrutura local** com recursos em **nuvem**, permitindo integração e migração gradual.",
+      "keywords": [
+        "hybrid",
+        "on-premises"
+      ],
+      "id": "fc092"
+    },
+    {
+      "domain": 1,
+      "service": "Nuvem privada",
+      "question": "O que caracteriza uma nuvem privada?",
+      "answer": "Infraestrutura de nuvem destinada ao uso **exclusivo de uma organização**, local ou hospedada.",
+      "keywords": [
+        "private cloud",
+        "exclusivo"
+      ],
+      "id": "fc093"
+    },
+    {
+      "domain": 1,
+      "service": "Agilidade",
+      "question": "Qual vantagem permite experimentar recursos rapidamente?",
+      "answer": "**Agilidade**: provisionar e testar recursos em minutos, reduzindo o tempo para inovar.",
+      "keywords": [
+        "agilidade",
+        "provisionamento"
+      ],
+      "id": "fc094"
+    },
+    {
+      "domain": 1,
+      "service": "Alcance global",
+      "question": "Como atender clientes em vários continentes?",
+      "answer": "Implantar em **múltiplas regiões** e usar **CDN** aproxima serviços dos usuários.",
+      "keywords": [
+        "global reach",
+        "regiões"
+      ],
+      "id": "fc095"
+    },
+    {
+      "domain": 1,
+      "service": "Tolerância a falhas",
+      "question": "Como um sistema continua funcionando após falhas?",
+      "answer": "**Tolerância a falhas** usa redundância e recuperação automática para manter o serviço.",
+      "keywords": [
+        "resiliência",
+        "redundância"
+      ],
+      "id": "fc096"
+    },
+    {
+      "domain": 1,
+      "service": "Disaster Recovery",
+      "question": "O que é recuperação de desastres?",
+      "answer": "Estratégias de **backup, replicação e restauração** para recuperar operações após um incidente grave.",
+      "keywords": [
+        "DR",
+        "backup",
+        "recuperação"
+      ],
+      "id": "fc097"
+    },
+    {
+      "domain": 1,
+      "service": "RPO",
+      "question": "O que significa Recovery Point Objective?",
+      "answer": "**RPO** é a quantidade máxima aceitável de **perda de dados**, medida em tempo.",
+      "keywords": [
+        "RPO",
+        "perda de dados"
+      ],
+      "id": "fc098"
+    },
+    {
+      "domain": 1,
+      "service": "RTO",
+      "question": "O que significa Recovery Time Objective?",
+      "answer": "**RTO** é o **tempo máximo aceitável de indisponibilidade** após uma falha.",
+      "keywords": [
+        "RTO",
+        "tempo de recuperação"
+      ],
+      "id": "fc099"
+    },
+    {
+      "domain": 1,
+      "service": "Escalabilidade vertical",
+      "question": "O que é scale up?",
+      "answer": "**Escalabilidade vertical** aumenta CPU ou memória de uma **máquina existente**.",
+      "keywords": [
+        "scale up",
+        "vertical"
+      ],
+      "id": "fc100"
+    },
+    {
+      "domain": 1,
+      "service": "Escalabilidade horizontal",
+      "question": "O que é scale out?",
+      "answer": "**Escalabilidade horizontal** adiciona mais instâncias ou nós para dividir a carga.",
+      "keywords": [
+        "scale out",
+        "horizontal"
+      ],
+      "id": "fc101"
+    },
+    {
+      "domain": 1,
+      "service": "Design for failure",
+      "question": "Por que projetar considerando falhas?",
+      "answer": "Na nuvem, componentes podem falhar; use **redundância**, automação e recuperação.",
+      "keywords": [
+        "falhas",
+        "arquitetura"
+      ],
+      "id": "fc102"
+    },
+    {
+      "domain": 1,
+      "service": "Loose coupling",
+      "question": "Por que desacoplar componentes?",
+      "answer": "**Baixo acoplamento** reduz dependências, facilitando escala e tolerância a falhas.",
+      "keywords": [
+        "desacoplamento",
+        "SQS",
+        "eventos"
+      ],
+      "id": "fc103"
+    },
+    {
+      "domain": 1,
+      "service": "Automação",
+      "question": "Qual benefício da infraestrutura como código?",
+      "answer": "**Automação** torna provisionamento repetível, consistente e menos sujeito a erros manuais.",
+      "keywords": [
+        "IaC",
+        "automação"
+      ],
+      "id": "fc104"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Local Zones",
+      "question": "Quando aproximar compute de uma cidade?",
+      "answer": "**Local Zones** levam serviços selecionados para locais próximos de usuários que exigem **baixa latência**.",
+      "keywords": [
+        "local zone",
+        "latência"
+      ],
+      "id": "fc105"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Outposts",
+      "question": "Como executar infraestrutura AWS no próprio datacenter?",
+      "answer": "**Outposts** disponibiliza infraestrutura e serviços AWS em instalações locais.",
+      "keywords": [
+        "outposts",
+        "híbrido",
+        "on-premises"
+      ],
+      "id": "fc106"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Wavelength",
+      "question": "Como reduzir latência em redes 5G?",
+      "answer": "**Wavelength** coloca recursos de computação e armazenamento próximos à borda de redes **5G**.",
+      "keywords": [
+        "5G",
+        "edge",
+        "wavelength"
+      ],
+      "id": "fc107"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Global Infrastructure",
+      "question": "Qual diferença entre região e AZ?",
+      "answer": "**Região** é área geográfica; **AZ** é domínio de falha isolado dentro da região.",
+      "keywords": [
+        "região",
+        "AZ"
+      ],
+      "id": "fc108"
+    },
+    {
+      "domain": 1,
+      "service": "Rehost",
+      "question": "O que significa lift-and-shift?",
+      "answer": "**Rehost** migra aplicações com poucas alterações, normalmente preservando arquitetura existente.",
+      "keywords": [
+        "6Rs",
+        "rehost",
+        "migração"
+      ],
+      "id": "fc109"
+    },
+    {
+      "domain": 1,
+      "service": "Replatform",
+      "question": "O que significa lift-tinker-and-shift?",
+      "answer": "**Replatform** realiza otimizações limitadas durante migração, sem reescrever toda a aplicação.",
+      "keywords": [
+        "6Rs",
+        "replatform"
+      ],
+      "id": "fc110"
+    },
+    {
+      "domain": 1,
+      "service": "Refactor",
+      "question": "Quando refatorar uma aplicação para cloud?",
+      "answer": "**Refactor/re-architect** altera a arquitetura para aproveitar recursos **cloud-native**.",
+      "keywords": [
+        "6Rs",
+        "refactor"
+      ],
+      "id": "fc111"
+    },
+    {
+      "domain": 1,
+      "service": "Retire",
+      "question": "O que significa retire em migração?",
+      "answer": "**Retire** desativa aplicações que não são mais necessárias.",
+      "keywords": [
+        "6Rs",
+        "retire"
+      ],
+      "id": "fc112"
+    },
+    {
+      "domain": 1,
+      "service": "Retain",
+      "question": "O que significa retain em migração?",
+      "answer": "**Retain** mantém temporariamente workloads no ambiente atual por razões técnicas ou comerciais.",
+      "keywords": [
+        "6Rs",
+        "retain"
+      ],
+      "id": "fc113"
+    },
+    {
+      "domain": 1,
+      "service": "Repurchase",
+      "question": "O que significa repurchase em migração?",
+      "answer": "**Repurchase** substitui uma solução por outro produto, muitas vezes **SaaS**.",
+      "keywords": [
+        "6Rs",
+        "repurchase"
+      ],
+      "id": "fc114"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Marketplace",
+      "question": "Onde adquirir software de terceiros para AWS?",
+      "answer": "**AWS Marketplace** reúne software e serviços de parceiros, com opções de assinatura e cobrança.",
+      "keywords": [
+        "marketplace",
+        "terceiros"
+      ],
+      "id": "fc115"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Partner Network",
+      "question": "O que é APN?",
+      "answer": "**AWS Partner Network** é o ecossistema de parceiros que desenvolvem soluções e oferecem serviços AWS.",
+      "keywords": [
+        "APN",
+        "parceiros"
+      ],
+      "id": "fc116"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Professional Services",
+      "question": "Quem pode ajudar em projetos complexos de adoção?",
+      "answer": "**AWS Professional Services** presta consultoria para transformação e implantação na nuvem.",
+      "keywords": [
+        "consultoria",
+        "migração"
+      ],
+      "id": "fc117"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Architecture Center",
+      "question": "Onde encontrar padrões e diagramas de referência?",
+      "answer": "**Architecture Center** oferece arquiteturas de referência e boas práticas.",
+      "keywords": [
+        "arquitetura",
+        "referência"
+      ],
+      "id": "fc118"
+    },
+    {
+      "domain": 1,
+      "service": "AWS Prescriptive Guidance",
+      "question": "Onde encontrar guias práticos de migração?",
+      "answer": "**Prescriptive Guidance** traz padrões e estratégias prescritivas para adoção e modernização.",
+      "keywords": [
+        "guidance",
+        "migração"
+      ],
+      "id": "fc119"
+    },
+    {
+      "domain": 2,
+      "service": "Root user",
+      "question": "Qual identidade tem acesso irrestrito à conta?",
+      "answer": "O **usuário root** tem privilégios amplos; proteja com **MFA** e evite uso cotidiano.",
+      "keywords": [
+        "root",
+        "MFA",
+        "segurança"
+      ],
+      "id": "fc120"
+    },
+    {
+      "domain": 2,
+      "service": "MFA",
+      "question": "Como proteger login além de senha?",
+      "answer": "**Autenticação multifator** exige um segundo fator, reduzindo risco de comprometimento.",
+      "keywords": [
+        "MFA",
+        "login"
+      ],
+      "id": "fc121"
+    },
+    {
+      "domain": 2,
+      "service": "Least privilege",
+      "question": "Como conceder permissões de forma segura?",
+      "answer": "**Menor privilégio**: conceder apenas as ações e recursos estritamente necessários.",
+      "keywords": [
+        "IAM",
+        "permissões"
+      ],
+      "id": "fc122"
+    },
+    {
+      "domain": 2,
+      "service": "Explicit deny",
+      "question": "O que acontece se uma política contém Deny explícito?",
+      "answer": "Um **Deny explícito** prevalece sobre um Allow em políticas IAM aplicáveis.",
+      "keywords": [
+        "deny",
+        "allow",
+        "IAM"
+      ],
+      "id": "fc123"
+    },
+    {
+      "domain": 2,
+      "service": "Shared responsibility EC2",
+      "question": "Quem atualiza o SO convidado de EC2?",
+      "answer": "Em **EC2**, o **cliente** normalmente atualiza e protege o sistema operacional convidado.",
+      "keywords": [
+        "EC2",
+        "SO",
+        "responsabilidade"
+      ],
+      "id": "fc124"
+    },
+    {
+      "domain": 2,
+      "service": "Shared responsibility S3",
+      "question": "Quem configura permissões de um bucket S3?",
+      "answer": "A **AWS** cuida da infraestrutura do S3; o **cliente** configura acesso, dados e políticas.",
+      "keywords": [
+        "S3",
+        "bucket",
+        "permissões"
+      ],
+      "id": "fc125"
+    },
+    {
+      "domain": 2,
+      "service": "Shared responsibility RDS",
+      "question": "Quem gerencia patches do SO subjacente do RDS?",
+      "answer": "No **RDS**, a **AWS** gerencia a infraestrutura e o SO subjacente; o cliente gerencia dados e acessos.",
+      "keywords": [
+        "RDS",
+        "gerenciado",
+        "patch"
+      ],
+      "id": "fc126"
+    },
+    {
+      "domain": 2,
+      "service": "Encryption at rest",
+      "question": "O que é criptografia em repouso?",
+      "answer": "**Encryption at rest** protege dados armazenados em discos, objetos ou bancos.",
+      "keywords": [
+        "criptografia",
+        "repouso"
+      ],
+      "id": "fc127"
+    },
+    {
+      "domain": 2,
+      "service": "Encryption in transit",
+      "question": "O que é criptografia em trânsito?",
+      "answer": "**Encryption in transit** protege dados trafegando na rede, frequentemente com **TLS**.",
+      "keywords": [
+        "TLS",
+        "HTTPS",
+        "trânsito"
+      ],
+      "id": "fc128"
+    },
+    {
+      "domain": 2,
+      "service": "AWS CloudHSM",
+      "question": "Quando precisar de HSM dedicado?",
+      "answer": "**CloudHSM** oferece módulos de segurança de hardware sob controle do cliente para chaves criptográficas.",
+      "keywords": [
+        "HSM",
+        "chaves",
+        "criptografia"
+      ],
+      "id": "fc129"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Directory Service",
+      "question": "Como integrar diretórios corporativos?",
+      "answer": "**Directory Service** fornece opções de diretório, inclusive **Microsoft Active Directory** gerenciado.",
+      "keywords": [
+        "AD",
+        "diretório"
+      ],
+      "id": "fc130"
+    },
+    {
+      "domain": 2,
+      "service": "Amazon Cognito",
+      "question": "Como autenticar usuários de um aplicativo?",
+      "answer": "**Cognito** gerencia cadastro, login e identidade de **usuários finais** de aplicações.",
+      "keywords": [
+        "login",
+        "app",
+        "usuários"
+      ],
+      "id": "fc131"
+    },
+    {
+      "domain": 2,
+      "service": "IAM vs Cognito",
+      "question": "IAM ou Cognito para clientes de um aplicativo?",
+      "answer": "**Cognito** é voltado a usuários finais do app; **IAM** controla acesso a recursos AWS.",
+      "keywords": [
+        "IAM",
+        "Cognito",
+        "comparação"
+      ],
+      "id": "fc132"
+    },
+    {
+      "domain": 2,
+      "service": "CloudTrail vs CloudWatch",
+      "question": "Qual registra chamadas API e qual monitora métricas?",
+      "answer": "**CloudTrail** audita **eventos de API**; **CloudWatch** acompanha **métricas, logs e alarmes**.",
+      "keywords": [
+        "auditoria",
+        "monitoramento"
+      ],
+      "id": "fc133"
+    },
+    {
+      "domain": 2,
+      "service": "Config vs CloudTrail",
+      "question": "Como diferenciar alterações de recursos e ações de API?",
+      "answer": "**Config** acompanha **estado e conformidade** dos recursos; **CloudTrail** registra **ações de API**.",
+      "keywords": [
+        "Config",
+        "CloudTrail"
+      ],
+      "id": "fc134"
+    },
+    {
+      "domain": 2,
+      "service": "GuardDuty vs Inspector",
+      "question": "Ameaça ativa ou vulnerabilidade de software?",
+      "answer": "**GuardDuty** detecta **ameaças e comportamento suspeito**; **Inspector** encontra **vulnerabilidades**.",
+      "keywords": [
+        "ameaça",
+        "CVE"
+      ],
+      "id": "fc135"
+    },
+    {
+      "domain": 2,
+      "service": "WAF vs Shield",
+      "question": "Qual protege HTTP e qual combate DDoS?",
+      "answer": "**WAF** filtra **requisições web**; **Shield** oferece proteção contra **DDoS**.",
+      "keywords": [
+        "WAF",
+        "Shield"
+      ],
+      "id": "fc136"
+    },
+    {
+      "domain": 2,
+      "service": "Security Group vs NACL",
+      "question": "Qual é stateful e qual é stateless?",
+      "answer": "**Security Group** é **stateful**; **Network ACL** é **stateless**.",
+      "keywords": [
+        "stateful",
+        "stateless"
+      ],
+      "id": "fc137"
+    },
+    {
+      "domain": 2,
+      "service": "Amazon Detective",
+      "question": "Como investigar achados de segurança?",
+      "answer": "**Detective** ajuda a analisar e investigar comportamentos e achados de segurança.",
+      "keywords": [
+        "investigação",
+        "segurança"
+      ],
+      "id": "fc138"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Firewall Manager",
+      "question": "Como centralizar políticas de firewall?",
+      "answer": "**Firewall Manager** gerencia políticas de proteção em várias contas e recursos.",
+      "keywords": [
+        "firewall",
+        "organizations"
+      ],
+      "id": "fc139"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Network Firewall",
+      "question": "Como inspecionar tráfego na VPC?",
+      "answer": "**Network Firewall** oferece filtragem e inspeção gerenciada de tráfego de rede na VPC.",
+      "keywords": [
+        "VPC",
+        "firewall"
+      ],
+      "id": "fc140"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Audit Manager",
+      "question": "Como reunir evidências para auditoria?",
+      "answer": "**Audit Manager** automatiza a coleta de **evidências de conformidade**.",
+      "keywords": [
+        "auditoria",
+        "evidências"
+      ],
+      "id": "fc141"
+    },
+    {
+      "domain": 2,
+      "service": "Amazon Security Lake",
+      "question": "Como centralizar dados de segurança?",
+      "answer": "**Security Lake** centraliza dados de segurança em formato padronizado para análise.",
+      "keywords": [
+        "security lake",
+        "logs"
+      ],
+      "id": "fc142"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Resource Access Manager",
+      "question": "Como compartilhar recursos entre contas?",
+      "answer": "**RAM** compartilha recursos compatíveis entre contas AWS com governança central.",
+      "keywords": [
+        "RAM",
+        "compartilhamento"
+      ],
+      "id": "fc143"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Service Catalog",
+      "question": "Como padronizar recursos aprovados?",
+      "answer": "**Service Catalog** oferece catálogo de produtos de TI previamente aprovados.",
+      "keywords": [
+        "catálogo",
+        "governança"
+      ],
+      "id": "fc144"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Systems Manager Parameter Store",
+      "question": "Onde guardar parâmetros e segredos simples?",
+      "answer": "**Parameter Store** armazena configurações e parâmetros, com opção de **SecureString**.",
+      "keywords": [
+        "parâmetros",
+        "config"
+      ],
+      "id": "fc145"
+    },
+    {
+      "domain": 2,
+      "service": "Secrets Manager vs Parameter Store",
+      "question": "Qual priorizar para rotação automática de credenciais?",
+      "answer": "**Secrets Manager** oferece recursos próprios de **rotação de segredos**; Parameter Store é útil para parâmetros.",
+      "keywords": [
+        "segredos",
+        "rotação"
+      ],
+      "id": "fc146"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Health Dashboard",
+      "question": "Onde ver eventos AWS que afetam seus recursos?",
+      "answer": "**AWS Health** mostra eventos de serviço e notificações relevantes para sua conta.",
+      "keywords": [
+        "health",
+        "eventos"
+      ],
+      "id": "fc147"
+    },
+    {
+      "domain": 2,
+      "service": "AWS Abuse",
+      "question": "Onde reportar abuso originado de recursos AWS?",
+      "answer": "**AWS Trust & Safety** recebe relatos de uso abusivo de recursos, como spam e ataques.",
+      "keywords": [
+        "abuse",
+        "report"
+      ],
+      "id": "fc148"
+    },
+    {
+      "domain": 2,
+      "service": "Data residency",
+      "question": "Como atender exigência de localização de dados?",
+      "answer": "Escolher a **região** adequada ajuda a cumprir requisitos de **residência de dados**.",
+      "keywords": [
+        "compliance",
+        "região"
+      ],
+      "id": "fc149"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Lightsail",
+      "question": "Qual serviço simplifica VPS com preço previsível?",
+      "answer": "**Lightsail** oferece servidores virtuais e recursos simplificados, com planos de preço previsíveis.",
+      "keywords": [
+        "VPS",
+        "simples"
+      ],
+      "id": "fc150"
+    },
+    {
+      "domain": 3,
+      "service": "EC2 instance types",
+      "question": "Como escolher família de instância?",
+      "answer": "**General purpose** equilibra recursos; **compute optimized** foca CPU; **memory optimized** foca RAM.",
+      "keywords": [
+        "EC2",
+        "CPU",
+        "RAM"
+      ],
+      "id": "fc151"
+    },
+    {
+      "domain": 3,
+      "service": "EC2 user data",
+      "question": "Como automatizar configuração no primeiro boot?",
+      "answer": "**User data** permite executar scripts de inicialização em instâncias EC2.",
+      "keywords": [
+        "bootstrap",
+        "EC2"
+      ],
+      "id": "fc152"
+    },
+    {
+      "domain": 3,
+      "service": "AMI",
+      "question": "O que é Amazon Machine Image?",
+      "answer": "**AMI** é um modelo para iniciar EC2 com SO e configurações predefinidas.",
+      "keywords": [
+        "imagem",
+        "EC2"
+      ],
+      "id": "fc153"
+    },
+    {
+      "domain": 3,
+      "service": "Elastic IP",
+      "question": "Como obter endereço IPv4 público estático?",
+      "answer": "**Elastic IP** fornece endereço IPv4 público estático associado a recursos compatíveis.",
+      "keywords": [
+        "IP",
+        "estático"
+      ],
+      "id": "fc154"
+    },
+    {
+      "domain": 3,
+      "service": "EC2 placement groups",
+      "question": "Como controlar posicionamento de instâncias?",
+      "answer": "**Placement groups** influenciam proximidade ou separação física para latência ou resiliência.",
+      "keywords": [
+        "placement",
+        "EC2"
+      ],
+      "id": "fc155"
+    },
+    {
+      "domain": 3,
+      "service": "Dedicated Hosts",
+      "question": "Quando exigir servidor físico dedicado?",
+      "answer": "**Dedicated Hosts** fornecem servidores físicos dedicados, úteis para requisitos de licenciamento.",
+      "keywords": [
+        "dedicated",
+        "licença"
+      ],
+      "id": "fc156"
+    },
+    {
+      "domain": 3,
+      "service": "AWS Batch",
+      "question": "Como executar jobs em lote?",
+      "answer": "**AWS Batch** agenda e executa cargas de processamento em lote.",
+      "keywords": [
+        "batch",
+        "jobs"
+      ],
+      "id": "fc157"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon App Runner",
+      "question": "Como publicar app web/container sem administrar infra?",
+      "answer": "**App Runner** implanta aplicações web e APIs a partir de código ou contêiner.",
+      "keywords": [
+        "web",
+        "container",
+        "serverless"
+      ],
+      "id": "fc158"
+    },
+    {
+      "domain": 3,
+      "service": "AWS AppSync",
+      "question": "Qual serviço fornece APIs GraphQL gerenciadas?",
+      "answer": "**AppSync** cria APIs **GraphQL** gerenciadas e integra fontes de dados.",
+      "keywords": [
+        "GraphQL",
+        "API"
+      ],
+      "id": "fc159"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon API Gateway",
+      "question": "Como publicar e gerenciar APIs?",
+      "answer": "**API Gateway** cria, publica e protege APIs REST, HTTP e WebSocket.",
+      "keywords": [
+        "API",
+        "REST"
+      ],
+      "id": "fc160"
+    },
+    {
+      "domain": 3,
+      "service": "S3 Standard",
+      "question": "Qual classe para dados acessados frequentemente?",
+      "answer": "**S3 Standard** atende dados com **acesso frequente** e baixa latência.",
+      "keywords": [
+        "S3",
+        "frequente"
+      ],
+      "id": "fc161"
+    },
+    {
+      "domain": 3,
+      "service": "S3 Intelligent-Tiering",
+      "question": "Qual classe otimiza custos com acesso imprevisível?",
+      "answer": "**Intelligent-Tiering** move objetos entre camadas conforme padrões de acesso elegíveis.",
+      "keywords": [
+        "S3",
+        "tiers"
+      ],
+      "id": "fc162"
+    },
+    {
+      "domain": 3,
+      "service": "S3 Standard-IA",
+      "question": "Qual classe para acesso infrequente com recuperação rápida?",
+      "answer": "**Standard-IA** é para dados **raramente acessados**, com acesso em milissegundos e cobrança de recuperação.",
+      "keywords": [
+        "S3",
+        "IA"
+      ],
+      "id": "fc163"
+    },
+    {
+      "domain": 3,
+      "service": "S3 One Zone-IA",
+      "question": "Qual classe infrequente usa uma única AZ?",
+      "answer": "**One Zone-IA** armazena em **uma AZ**, com custo menor e menor resiliência a falhas da AZ.",
+      "keywords": [
+        "S3",
+        "one zone"
+      ],
+      "id": "fc164"
+    },
+    {
+      "domain": 3,
+      "service": "S3 Glacier Deep Archive",
+      "question": "Qual classe para arquivo de longo prazo?",
+      "answer": "**Deep Archive** oferece arquivamento de custo baixo com **recuperação em horas**.",
+      "keywords": [
+        "Glacier",
+        "arquivo"
+      ],
+      "id": "fc165"
+    },
+    {
+      "domain": 3,
+      "service": "S3 Versioning",
+      "question": "Como recuperar versões anteriores de objetos?",
+      "answer": "**Versioning** mantém múltiplas versões de objetos no bucket.",
+      "keywords": [
+        "S3",
+        "versões"
+      ],
+      "id": "fc166"
+    },
+    {
+      "domain": 3,
+      "service": "S3 Lifecycle",
+      "question": "Como mover objetos automaticamente entre classes?",
+      "answer": "**Lifecycle rules** fazem transições e expiração conforme idade ou condições.",
+      "keywords": [
+        "S3",
+        "lifecycle"
+      ],
+      "id": "fc167"
+    },
+    {
+      "domain": 3,
+      "service": "S3 Replication",
+      "question": "Como copiar objetos entre buckets?",
+      "answer": "**S3 Replication** replica objetos para outro bucket, na mesma região ou em outra.",
+      "keywords": [
+        "S3",
+        "CRR",
+        "SRR"
+      ],
+      "id": "fc168"
+    },
+    {
+      "domain": 3,
+      "service": "S3 vs EBS",
+      "question": "Objetos ou disco de máquina virtual?",
+      "answer": "**S3** armazena **objetos**; **EBS** oferece **blocos** para instâncias EC2.",
+      "keywords": [
+        "objetos",
+        "blocos"
+      ],
+      "id": "fc169"
+    },
+    {
+      "domain": 3,
+      "service": "EBS vs EFS",
+      "question": "Disco de instância ou arquivos compartilhados?",
+      "answer": "**EBS** é armazenamento em **blocos**; **EFS** é sistema de arquivos **compartilhado**.",
+      "keywords": [
+        "EBS",
+        "EFS"
+      ],
+      "id": "fc170"
+    },
+    {
+      "domain": 3,
+      "service": "AWS Storage Gateway",
+      "question": "Como integrar armazenamento local à AWS?",
+      "answer": "**Storage Gateway** conecta aplicações locais a serviços de armazenamento AWS.",
+      "keywords": [
+        "híbrido",
+        "storage"
+      ],
+      "id": "fc171"
+    },
+    {
+      "domain": 3,
+      "service": "AWS DataSync",
+      "question": "Como transferir arquivos em grande escala?",
+      "answer": "**DataSync** automatiza movimentação de dados entre sistemas de arquivos e armazenamento AWS.",
+      "keywords": [
+        "transferência",
+        "arquivos"
+      ],
+      "id": "fc172"
+    },
+    {
+      "domain": 3,
+      "service": "AWS Transfer Family",
+      "question": "Como usar SFTP gerenciado com armazenamento AWS?",
+      "answer": "**Transfer Family** oferece protocolos como **SFTP** para transferência a S3 ou EFS.",
+      "keywords": [
+        "SFTP",
+        "transfer"
+      ],
+      "id": "fc173"
+    },
+    {
+      "domain": 3,
+      "service": "AWS Backup",
+      "question": "Como centralizar políticas de backup?",
+      "answer": "**AWS Backup** automatiza e centraliza **planos de backup** de recursos compatíveis.",
+      "keywords": [
+        "backup",
+        "política"
+      ],
+      "id": "fc174"
+    },
+    {
+      "domain": 3,
+      "service": "RDS Multi-AZ",
+      "question": "Como melhorar disponibilidade do RDS?",
+      "answer": "**Multi-AZ** mantém infraestrutura redundante para **failover** automático.",
+      "keywords": [
+        "RDS",
+        "alta disponibilidade"
+      ],
+      "id": "fc175"
+    },
+    {
+      "domain": 3,
+      "service": "RDS Read Replica",
+      "question": "Como aliviar consultas de leitura?",
+      "answer": "**Read replicas** distribuem **carga de leitura**; não substituem automaticamente o propósito de Multi-AZ.",
+      "keywords": [
+        "RDS",
+        "leitura"
+      ],
+      "id": "fc176"
+    },
+    {
+      "domain": 3,
+      "service": "Multi-AZ vs Read Replica",
+      "question": "Disponibilidade ou escalabilidade de leitura?",
+      "answer": "**Multi-AZ** prioriza **alta disponibilidade**; **read replica** prioriza **escala de leitura**.",
+      "keywords": [
+        "RDS",
+        "comparação"
+      ],
+      "id": "fc177"
+    },
+    {
+      "domain": 3,
+      "service": "RDS vs DynamoDB",
+      "question": "SQL ou chave-valor serverless?",
+      "answer": "**RDS** é **relacional/SQL**; **DynamoDB** é **NoSQL** de chave-valor/documentos.",
+      "keywords": [
+        "SQL",
+        "NoSQL"
+      ],
+      "id": "fc178"
+    },
+    {
+      "domain": 3,
+      "service": "Aurora vs RDS",
+      "question": "Qual é a diferença entre Aurora e RDS?",
+      "answer": "**Aurora** é mecanismo relacional AWS compatível com MySQL/PostgreSQL; **RDS** gerencia vários mecanismos.",
+      "keywords": [
+        "Aurora",
+        "RDS"
+      ],
+      "id": "fc179"
+    },
+    {
+      "domain": 3,
+      "service": "DynamoDB Global Tables",
+      "question": "Como replicar DynamoDB em várias regiões?",
+      "answer": "**Global Tables** oferece replicação **multi-região ativa-ativa**.",
+      "keywords": [
+        "DynamoDB",
+        "global"
+      ],
+      "id": "fc180"
+    },
+    {
+      "domain": 3,
+      "service": "DynamoDB Accelerator",
+      "question": "Como reduzir ainda mais latência de leitura?",
+      "answer": "**DAX** é cache em memória gerenciado para **DynamoDB**.",
+      "keywords": [
+        "DAX",
+        "cache"
+      ],
+      "id": "fc181"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Keyspaces",
+      "question": "Qual serviço compatível com Apache Cassandra?",
+      "answer": "**Keyspaces** é banco gerenciado compatível com **Apache Cassandra**.",
+      "keywords": [
+        "Cassandra",
+        "NoSQL"
+      ],
+      "id": "fc182"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Timestream",
+      "question": "Qual banco para dados de séries temporais?",
+      "answer": "**Timestream** é banco para **time series**, como telemetria e métricas.",
+      "keywords": [
+        "time series",
+        "IoT"
+      ],
+      "id": "fc183"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon QLDB",
+      "question": "Qual banco mantém histórico verificável de alterações?",
+      "answer": "**QLDB** é um serviço de ledger historicamente cobrado; confira seu **status de disponibilidade** antes de escolhê-lo para novos projetos.",
+      "keywords": [
+        "ledger",
+        "legado"
+      ],
+      "id": "fc184"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon OpenSearch Service",
+      "question": "Como pesquisar e analisar logs e documentos?",
+      "answer": "**OpenSearch Service** fornece busca e análise de dados, incluindo logs.",
+      "keywords": [
+        "search",
+        "logs"
+      ],
+      "id": "fc185"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon EMR",
+      "question": "Como processar big data com Spark/Hadoop?",
+      "answer": "**EMR** executa frameworks de big data como **Apache Spark**.",
+      "keywords": [
+        "Spark",
+        "Hadoop"
+      ],
+      "id": "fc186"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon QuickSight",
+      "question": "Qual serviço cria dashboards de BI?",
+      "answer": "**QuickSight** fornece **dashboards e visualizações** de business intelligence.",
+      "keywords": [
+        "BI",
+        "dashboard"
+      ],
+      "id": "fc187"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Managed Streaming for Apache Kafka",
+      "question": "Qual serviço gerencia Kafka?",
+      "answer": "**Amazon MSK** fornece clusters **Apache Kafka** gerenciados.",
+      "keywords": [
+        "Kafka",
+        "streaming"
+      ],
+      "id": "fc188"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon MQ",
+      "question": "Quando usar brokers ActiveMQ/RabbitMQ?",
+      "answer": "**Amazon MQ** oferece brokers gerenciados compatíveis com **ActiveMQ e RabbitMQ**.",
+      "keywords": [
+        "broker",
+        "mensageria"
+      ],
+      "id": "fc189"
+    },
+    {
+      "domain": 3,
+      "service": "SQS vs SNS",
+      "question": "Fila ou publicação para vários assinantes?",
+      "answer": "**SQS** mantém mensagens em **fila**; **SNS** distribui para **assinantes**.",
+      "keywords": [
+        "fila",
+        "pubsub"
+      ],
+      "id": "fc190"
+    },
+    {
+      "domain": 3,
+      "service": "SNS vs EventBridge",
+      "question": "Notificação ou roteamento por regras?",
+      "answer": "**SNS** distribui mensagens para assinantes; **EventBridge** roteia eventos conforme **regras**.",
+      "keywords": [
+        "eventos",
+        "pubsub"
+      ],
+      "id": "fc191"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon VPC endpoints",
+      "question": "Como acessar serviços sem usar internet pública?",
+      "answer": "**VPC endpoints** criam acesso privado a serviços compatíveis a partir da VPC.",
+      "keywords": [
+        "privado",
+        "endpoint"
+      ],
+      "id": "fc192"
+    },
+    {
+      "domain": 3,
+      "service": "NAT Gateway",
+      "question": "Como dar saída à internet a instâncias privadas?",
+      "answer": "**NAT Gateway** permite conexão **de saída** de sub-redes privadas para destinos externos.",
+      "keywords": [
+        "NAT",
+        "privado"
+      ],
+      "id": "fc193"
+    },
+    {
+      "domain": 3,
+      "service": "Internet Gateway",
+      "question": "Como conectar VPC à internet?",
+      "answer": "**Internet Gateway** é componente de VPC para conectividade com internet, com rotas e endereços adequados.",
+      "keywords": [
+        "IGW",
+        "VPC"
+      ],
+      "id": "fc194"
+    },
+    {
+      "domain": 3,
+      "service": "VPC Peering",
+      "question": "Como conectar duas VPCs?",
+      "answer": "**VPC peering** permite comunicação privada entre duas VPCs, sem roteamento transitivo.",
+      "keywords": [
+        "peering",
+        "VPC"
+      ],
+      "id": "fc195"
+    },
+    {
+      "domain": 3,
+      "service": "AWS Transit Gateway",
+      "question": "Como interligar muitas VPCs e redes locais?",
+      "answer": "**Transit Gateway** atua como hub de conectividade entre **VPCs e redes on-premises**.",
+      "keywords": [
+        "hub",
+        "rede"
+      ],
+      "id": "fc196"
+    },
+    {
+      "domain": 3,
+      "service": "Route 53 routing policies",
+      "question": "Qual política distribui por latência?",
+      "answer": "**Latency-based routing** direciona consultas DNS conforme menor latência estimada entre regiões.",
+      "keywords": [
+        "DNS",
+        "latência"
+      ],
+      "id": "fc197"
+    },
+    {
+      "domain": 3,
+      "service": "ALB vs NLB",
+      "question": "HTTP por caminho ou tráfego TCP?",
+      "answer": "**ALB** opera na **camada 7** e roteia HTTP; **NLB** atua na **camada 4** para TCP/UDP/TLS.",
+      "keywords": [
+        "load balancer",
+        "L4",
+        "L7"
+      ],
+      "id": "fc198"
+    },
+    {
+      "domain": 3,
+      "service": "AWS Global Accelerator",
+      "question": "Como melhorar tráfego global com IPs estáticos?",
+      "answer": "**Global Accelerator** usa a rede global AWS e **IPs anycast estáticos** para aplicações.",
+      "keywords": [
+        "global",
+        "anycast"
+      ],
+      "id": "fc199"
+    },
+    {
+      "domain": 3,
+      "service": "CloudFront vs Global Accelerator",
+      "question": "Cache de conteúdo ou otimização de tráfego?",
+      "answer": "**CloudFront** é **CDN/cache**; **Global Accelerator** otimiza caminho de rede para aplicações.",
+      "keywords": [
+        "CDN",
+        "global"
+      ],
+      "id": "fc200"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon WorkSpaces",
+      "question": "Como fornecer desktops virtuais?",
+      "answer": "**WorkSpaces** disponibiliza **desktops virtuais** gerenciados.",
+      "keywords": [
+        "VDI",
+        "desktop"
+      ],
+      "id": "fc201"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Connect",
+      "question": "Qual serviço oferece contact center na nuvem?",
+      "answer": "**Connect** é solução gerenciada de **central de atendimento**.",
+      "keywords": [
+        "call center",
+        "contact center"
+      ],
+      "id": "fc202"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon SES",
+      "question": "Como enviar e-mails transacionais em escala?",
+      "answer": "**Simple Email Service** oferece envio e recebimento de **e-mail** em aplicações.",
+      "keywords": [
+        "email",
+        "SES"
+      ],
+      "id": "fc203"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Pinpoint",
+      "question": "Qual serviço de engajamento de clientes aparece em materiais antigos?",
+      "answer": "**Pinpoint** era associado a campanhas e mensagens; confira **mudanças de disponibilidade** do serviço.",
+      "keywords": [
+        "engajamento",
+        "legado"
+      ],
+      "id": "fc204"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Rekognition",
+      "question": "Como analisar imagens e vídeos?",
+      "answer": "**Rekognition** detecta objetos, cenas e atributos em **imagens e vídeos**.",
+      "keywords": [
+        "visão computacional",
+        "ML"
+      ],
+      "id": "fc205"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Textract",
+      "question": "Como extrair texto e campos de documentos?",
+      "answer": "**Textract** extrai **texto, tabelas e formulários** de documentos.",
+      "keywords": [
+        "OCR",
+        "documentos"
+      ],
+      "id": "fc206"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Comprehend",
+      "question": "Como extrair entidades e sentimento de textos?",
+      "answer": "**Comprehend** usa NLP para analisar **sentimento, entidades e tópicos**.",
+      "keywords": [
+        "NLP",
+        "texto"
+      ],
+      "id": "fc207"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Transcribe",
+      "question": "Como converter áudio em texto?",
+      "answer": "**Transcribe** faz **speech-to-text** automaticamente.",
+      "keywords": [
+        "áudio",
+        "texto"
+      ],
+      "id": "fc208"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Polly",
+      "question": "Como transformar texto em fala?",
+      "answer": "**Polly** gera **voz a partir de texto**.",
+      "keywords": [
+        "texto",
+        "voz"
+      ],
+      "id": "fc209"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Translate",
+      "question": "Como traduzir texto automaticamente?",
+      "answer": "**Translate** oferece **tradução automática** de texto.",
+      "keywords": [
+        "tradução",
+        "ML"
+      ],
+      "id": "fc210"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Lex",
+      "question": "Como criar chatbot conversacional?",
+      "answer": "**Lex** cria interfaces de **conversa por texto e voz**.",
+      "keywords": [
+        "chatbot",
+        "NLP"
+      ],
+      "id": "fc211"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon SageMaker AI",
+      "question": "Qual serviço cria e implanta modelos de ML?",
+      "answer": "**SageMaker AI** oferece ferramentas para **treinar, desenvolver e implantar** modelos.",
+      "keywords": [
+        "ML",
+        "treinamento"
+      ],
+      "id": "fc212"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Bedrock",
+      "question": "Como usar modelos fundacionais via API?",
+      "answer": "**Bedrock** fornece acesso gerenciado a **modelos fundacionais** para IA generativa.",
+      "keywords": [
+        "genAI",
+        "foundation models"
+      ],
+      "id": "fc213"
+    },
+    {
+      "domain": 3,
+      "service": "Amazon Q Business",
+      "question": "Qual assistente usa informações corporativas?",
+      "answer": "**Amazon Q Business** é assistente generativo para **dados e conhecimento empresarial**.",
+      "keywords": [
+        "IA",
+        "empresa"
+      ],
+      "id": "fc214"
+    },
+    {
+      "domain": 3,
+      "service": "AWS IoT Core",
+      "question": "Como conectar dispositivos IoT à nuvem?",
+      "answer": "**IoT Core** conecta dispositivos e encaminha **mensagens de IoT**.",
+      "keywords": [
+        "IoT",
+        "MQTT"
+      ],
+      "id": "fc215"
+    },
+    {
+      "domain": 3,
+      "service": "AWS CodeBuild",
+      "question": "Qual serviço compila e testa código?",
+      "answer": "**CodeBuild** executa **builds e testes** gerenciados.",
+      "keywords": [
+        "CI",
+        "build"
+      ],
+      "id": "fc216"
+    },
+    {
+      "domain": 3,
+      "service": "AWS CodeDeploy",
+      "question": "Qual serviço automatiza implantações?",
+      "answer": "**CodeDeploy** automatiza **deploys** em destinos compatíveis.",
+      "keywords": [
+        "deploy",
+        "automação"
+      ],
+      "id": "fc217"
+    },
+    {
+      "domain": 3,
+      "service": "AWS CodePipeline",
+      "question": "Qual serviço orquestra etapas de CI/CD?",
+      "answer": "**CodePipeline** coordena etapas de **pipeline de entrega**.",
+      "keywords": [
+        "CI/CD",
+        "pipeline"
+      ],
+      "id": "fc218"
+    },
+    {
+      "domain": 3,
+      "service": "AWS Cloud9",
+      "question": "Qual IDE baseada em nuvem aparece em cursos antigos?",
+      "answer": "**Cloud9** é IDE em nuvem presente em materiais antigos; há **restrições para novos clientes**.",
+      "keywords": [
+        "IDE",
+        "legado"
+      ],
+      "id": "fc219"
+    },
+    {
+      "domain": 3,
+      "service": "AWS X-Ray",
+      "question": "Como rastrear requisições distribuídas?",
+      "answer": "**X-Ray** ajuda a analisar **traces** de aplicações distribuídas.",
+      "keywords": [
+        "tracing",
+        "observabilidade"
+      ],
+      "id": "fc220"
+    },
+    {
+      "domain": 3,
+      "service": "AWS CloudShell",
+      "question": "Como acessar terminal no console AWS?",
+      "answer": "**CloudShell** oferece shell autenticado no navegador, com ferramentas AWS.",
+      "keywords": [
+        "CLI",
+        "terminal"
+      ],
+      "id": "fc221"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Cost Anomaly Detection",
+      "question": "Como detectar gastos fora do padrão?",
+      "answer": "**Cost Anomaly Detection** usa modelos para identificar **anomalias de custos** e emitir alertas.",
+      "keywords": [
+        "custos",
+        "anomalia"
+      ],
+      "id": "fc222"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Compute Optimizer",
+      "question": "Como recomendar tamanhos de recursos?",
+      "answer": "**Compute Optimizer** analisa métricas e sugere **right-sizing** de recursos compatíveis.",
+      "keywords": [
+        "right sizing",
+        "otimização"
+      ],
+      "id": "fc223"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Billing Conductor",
+      "question": "Como customizar visões de cobrança?",
+      "answer": "**Billing Conductor** permite criar **visões de faturamento** para organizações.",
+      "keywords": [
+        "billing",
+        "customização"
+      ],
+      "id": "fc224"
+    },
+    {
+      "domain": 4,
+      "service": "Cost allocation tags",
+      "question": "Como atribuir gastos por projeto?",
+      "answer": "**Tags de alocação de custos** permitem classificar gastos por equipe, ambiente ou projeto.",
+      "keywords": [
+        "tags",
+        "custos"
+      ],
+      "id": "fc225"
+    },
+    {
+      "domain": 4,
+      "service": "Reserved Instances vs Savings Plans",
+      "question": "Qual a diferença geral?",
+      "answer": "**Savings Plans** vinculam desconto a compromisso de gasto/hora; **Reserved Instances** têm regras de reserva específicas.",
+      "keywords": [
+        "compromisso",
+        "desconto"
+      ],
+      "id": "fc226"
+    },
+    {
+      "domain": 4,
+      "service": "Spot vs On-Demand",
+      "question": "Quando escolher Spot em vez de On-Demand?",
+      "answer": "**Spot** é econômico para workloads **tolerantes a interrupções**; **On-Demand** prioriza flexibilidade sem interrupção Spot.",
+      "keywords": [
+        "spot",
+        "on-demand"
+      ],
+      "id": "fc227"
+    },
+    {
+      "domain": 4,
+      "service": "Dedicated Instances",
+      "question": "O que significa tenancy dedicada?",
+      "answer": "**Dedicated Instances** executam instâncias em hardware dedicado a uma conta, sem controle de host como Dedicated Hosts.",
+      "keywords": [
+        "tenancy",
+        "dedicated"
+      ],
+      "id": "fc228"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Support API",
+      "question": "Para que serve Support API?",
+      "answer": "Permite **automatizar interações com suporte**, conforme a elegibilidade do plano.",
+      "keywords": [
+        "support",
+        "API"
+      ],
+      "id": "fc229"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Support case",
+      "question": "O que é abrir um caso de suporte?",
+      "answer": "Um **support case** registra solicitação de ajuda; **canais e severidades** dependem do plano contratado.",
+      "keywords": [
+        "case",
+        "suporte"
+      ],
+      "id": "fc230"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Support TAM",
+      "question": "O que faz um Technical Account Manager?",
+      "answer": "O **TAM** ajuda com **orientação técnica estratégica**, operações e boas práticas de arquitetura.",
+      "keywords": [
+        "TAM",
+        "enterprise"
+      ],
+      "id": "fc231"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Support response time",
+      "question": "Tempo de resposta é tempo de solução?",
+      "answer": "**Não**. SLA de suporte para casos refere-se a **resposta inicial**, não a prazo garantido de resolução.",
+      "keywords": [
+        "SLA",
+        "resposta"
+      ],
+      "id": "fc232"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Support Unified Operations",
+      "question": "Qual plano atual foca operações críticas especializadas?",
+      "answer": "**Unified Operations** oferece acompanhamento operacional avançado para aplicações críticas.",
+      "keywords": [
+        "unified",
+        "operações"
+      ],
+      "id": "fc233"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Support plans legacy",
+      "question": "Por que há nomes diferentes nos simulados?",
+      "answer": "**Developer**, **Business** e **Enterprise On-Ramp** são nomes legados em transição; verifique data da questão.",
+      "keywords": [
+        "legado",
+        "suporte"
+      ],
+      "id": "fc234"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Trusted Advisor access",
+      "question": "Todos os planos têm as mesmas verificações?",
+      "answer": "**Não**. A quantidade de verificações e recursos do **Trusted Advisor** depende do plano e das ofertas atuais.",
+      "keywords": [
+        "trusted advisor",
+        "planos"
+      ],
+      "id": "fc235"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Pricing models",
+      "question": "Quais três modelos clássicos de EC2?",
+      "answer": "**On-Demand**, **Savings Plans/Reserved Instances** e **Spot** atendem flexibilidade, compromisso e tolerância a interrupções.",
+      "keywords": [
+        "pricing",
+        "EC2"
+      ],
+      "id": "fc236"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Budgets vs Cost Explorer",
+      "question": "Alertar orçamento ou analisar tendência?",
+      "answer": "**Budgets** define limites e **alertas**; **Cost Explorer** analisa gastos, tendências e previsões.",
+      "keywords": [
+        "budget",
+        "explorer"
+      ],
+      "id": "fc237"
+    },
+    {
+      "domain": 4,
+      "service": "Pricing Calculator vs Cost Explorer",
+      "question": "Estimar projeto futuro ou analisar histórico?",
+      "answer": "**Pricing Calculator** estima uma arquitetura; **Cost Explorer** analisa consumo e gastos.",
+      "keywords": [
+        "estimativa",
+        "histórico"
+      ],
+      "id": "fc238"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Marketplace billing",
+      "question": "Onde aparece cobrança de software do Marketplace?",
+      "answer": "Compras elegíveis do **Marketplace** podem ser cobradas na **fatura AWS**, separadas por produtos.",
+      "keywords": [
+        "marketplace",
+        "fatura"
+      ],
+      "id": "fc239"
+    },
+    {
+      "domain": 4,
+      "service": "AWS Organizations SCP billing",
+      "question": "SCP controla custos diretamente?",
+      "answer": "**SCP** limita permissões máximas; para **custos**, use Budgets, tags e relatórios de cobrança.",
+      "keywords": [
+        "SCP",
+        "billing"
+      ],
+      "id": "fc240"
     }
   ]
 }
