@@ -1,0 +1,1018 @@
+{
+  "version": 1,
+  "updated": "2026-10-08",
+  "cards": [
+    {
+      "id": "fc001",
+      "domain": 1,
+      "service": "AWS Cloud",
+      "question": "Nuvem sob demanda",
+      "answer": "Recursos de TI disponíveis sob demanda, com **pagamento pelo uso**, **elasticidade** e alcance global.",
+      "keywords": [
+        "on-demand",
+        "pay as you go",
+        "elasticidade"
+      ]
+    },
+    {
+      "id": "fc002",
+      "domain": 1,
+      "service": "Economias de escala",
+      "question": "Custos menores",
+      "answer": "A AWS agrega demanda de clientes para obter **economias de escala**, reduzindo custos unitários.",
+      "keywords": [
+        "economias de escala",
+        "custo"
+      ]
+    },
+    {
+      "id": "fc003",
+      "domain": 1,
+      "service": "CapEx vs OpEx",
+      "question": "Investimento x operação",
+      "answer": "Na nuvem, troca-se parte do investimento antecipado (**CapEx**) por despesas conforme o consumo (**OpEx**).",
+      "keywords": [
+        "CapEx",
+        "OpEx",
+        "pagamento por uso"
+      ]
+    },
+    {
+      "id": "fc004",
+      "domain": 1,
+      "service": "Elasticidade",
+      "question": "Ajuste à demanda",
+      "answer": "**Elasticidade** aumenta ou reduz recursos conforme a demanda; **escalabilidade** é a capacidade de suportar crescimento.",
+      "keywords": [
+        "elasticidade",
+        "escalabilidade"
+      ]
+    },
+    {
+      "id": "fc005",
+      "domain": 1,
+      "service": "Alta disponibilidade",
+      "question": "Menos interrupções",
+      "answer": "Distribuir recursos entre **múltiplas Availability Zones** ajuda a manter serviços disponíveis diante de falhas.",
+      "keywords": [
+        "AZ",
+        "disponibilidade",
+        "redundância"
+      ]
+    },
+    {
+      "id": "fc006",
+      "domain": 1,
+      "service": "AWS Regions",
+      "question": "Regiões geográficas",
+      "answer": "Uma **Region** é uma área geográfica com múltiplas **Availability Zones** isoladas.",
+      "keywords": [
+        "region",
+        "AZ",
+        "geografia"
+      ]
+    },
+    {
+      "id": "fc007",
+      "domain": 1,
+      "service": "Availability Zones",
+      "question": "Isolamento de falhas",
+      "answer": "**AZs** são locais fisicamente separados dentro de uma região, conectados por redes de baixa latência.",
+      "keywords": [
+        "AZ",
+        "datacenter",
+        "isolamento"
+      ]
+    },
+    {
+      "id": "fc008",
+      "domain": 1,
+      "service": "Edge Locations",
+      "question": "Conteúdo próximo do usuário",
+      "answer": "**Edge locations** aproximam conteúdo e serviços dos usuários, reduzindo a **latência**.",
+      "keywords": [
+        "edge",
+        "latência",
+        "CDN"
+      ]
+    },
+    {
+      "id": "fc009",
+      "domain": 1,
+      "service": "Well-Architected Framework",
+      "question": "Seis pilares",
+      "answer": "Boas práticas de arquitetura: **excelência operacional**, **segurança**, **confiabilidade**, **eficiência de desempenho**, **otimização de custos** e **sustentabilidade**.",
+      "keywords": [
+        "seis pilares",
+        "arquitetura"
+      ]
+    },
+    {
+      "id": "fc010",
+      "domain": 1,
+      "service": "AWS CAF",
+      "question": "Adoção da nuvem",
+      "answer": "O **Cloud Adoption Framework** orienta transformação na nuvem por perspectivas de negócio, pessoas, governança, plataforma, segurança e operações.",
+      "keywords": [
+        "CAF",
+        "migração",
+        "transformação"
+      ]
+    },
+    {
+      "id": "fc011",
+      "domain": 1,
+      "service": "AWS Migration Hub",
+      "question": "Acompanhar migrações",
+      "answer": "Centraliza o **acompanhamento de migrações** de aplicações e servidores para a AWS.",
+      "keywords": [
+        "migração",
+        "rastreamento"
+      ]
+    },
+    {
+      "id": "fc012",
+      "domain": 1,
+      "service": "AWS Application Migration Service",
+      "question": "Lift-and-shift",
+      "answer": "Facilita a migração de servidores com abordagem **rehost (lift-and-shift)**.",
+      "keywords": [
+        "MGN",
+        "rehost",
+        "migração"
+      ]
+    },
+    {
+      "id": "fc013",
+      "domain": 1,
+      "service": "AWS DMS",
+      "question": "Migrar bancos de dados",
+      "answer": "**Database Migration Service** migra ou replica dados entre bancos, inclusive com diferentes mecanismos.",
+      "keywords": [
+        "DMS",
+        "banco",
+        "replicação"
+      ]
+    },
+    {
+      "id": "fc014",
+      "domain": 1,
+      "service": "AWS Snow Family",
+      "question": "Transferência física",
+      "answer": "Dispositivos físicos ajudam a transferir **grandes volumes de dados** quando a rede é insuficiente.",
+      "keywords": [
+        "Snowball",
+        "offline",
+        "dados"
+      ]
+    },
+    {
+      "id": "fc015",
+      "domain": 1,
+      "service": "Responsabilidade compartilhada",
+      "question": "Quem cuida do quê?",
+      "answer": "A AWS responde pela **segurança da nuvem**; o cliente, pela **segurança na nuvem**, variando conforme o serviço.",
+      "keywords": [
+        "shared responsibility",
+        "segurança"
+      ]
+    },
+    {
+      "id": "fc016",
+      "domain": 2,
+      "service": "AWS IAM",
+      "question": "Permissões e identidades",
+      "answer": "**IAM** controla **usuários**, **grupos**, **roles** e **políticas** de acesso a recursos AWS.",
+      "keywords": [
+        "identidade",
+        "acesso",
+        "policy",
+        "role"
+      ]
+    },
+    {
+      "id": "fc017",
+      "domain": 2,
+      "service": "IAM Roles",
+      "question": "Credenciais temporárias",
+      "answer": "**Roles** fornecem permissões assumíveis por usuários, serviços ou contas, geralmente com **credenciais temporárias**.",
+      "keywords": [
+        "role",
+        "STS",
+        "temporário"
+      ]
+    },
+    {
+      "id": "fc018",
+      "domain": 2,
+      "service": "IAM Policies",
+      "question": "Autorizar ações",
+      "answer": "**Políticas JSON** definem ações permitidas ou negadas em recursos; aplique o **menor privilégio**.",
+      "keywords": [
+        "policy",
+        "allow",
+        "deny"
+      ]
+    },
+    {
+      "id": "fc019",
+      "domain": 2,
+      "service": "AWS IAM Identity Center",
+      "question": "SSO e acesso centralizado",
+      "answer": "Centraliza o acesso de funcionários a **múltiplas contas AWS** e aplicações com **single sign-on**.",
+      "keywords": [
+        "SSO",
+        "múltiplas contas"
+      ]
+    },
+    {
+      "id": "fc020",
+      "domain": 2,
+      "service": "AWS Organizations",
+      "question": "Governança de contas",
+      "answer": "Agrupa contas AWS e aplica **Service Control Policies (SCPs)** para limitar permissões máximas.",
+      "keywords": [
+        "organizations",
+        "SCP",
+        "contas"
+      ]
+    },
+    {
+      "id": "fc021",
+      "domain": 2,
+      "service": "AWS Control Tower",
+      "question": "Landing zone",
+      "answer": "Ajuda a configurar e governar um ambiente **multi-conta** com controles e uma **landing zone**.",
+      "keywords": [
+        "governança",
+        "multi-conta"
+      ]
+    },
+    {
+      "id": "fc022",
+      "domain": 2,
+      "service": "AWS KMS",
+      "question": "Gerenciar chaves",
+      "answer": "**Key Management Service** cria e controla **chaves criptográficas** usadas na proteção de dados.",
+      "keywords": [
+        "KMS",
+        "criptografia",
+        "chaves"
+      ]
+    },
+    {
+      "id": "fc023",
+      "domain": 2,
+      "service": "AWS Secrets Manager",
+      "question": "Segredos e rotação",
+      "answer": "Armazena **senhas**, tokens e credenciais com suporte a **rotação automática** de segredos.",
+      "keywords": [
+        "segredos",
+        "senha",
+        "rotação"
+      ]
+    },
+    {
+      "id": "fc024",
+      "domain": 2,
+      "service": "AWS Certificate Manager",
+      "question": "Certificados TLS",
+      "answer": "Provisiona e gerencia **certificados SSL/TLS** para serviços compatíveis.",
+      "keywords": [
+        "ACM",
+        "TLS",
+        "HTTPS"
+      ]
+    },
+    {
+      "id": "fc025",
+      "domain": 2,
+      "service": "AWS WAF",
+      "question": "Filtrar requisições web",
+      "answer": "Protege aplicações web contra padrões maliciosos de **HTTP/HTTPS**, como **SQL injection**.",
+      "keywords": [
+        "WAF",
+        "camada 7",
+        "web"
+      ]
+    },
+    {
+      "id": "fc026",
+      "domain": 2,
+      "service": "AWS Shield",
+      "question": "Proteção contra DDoS",
+      "answer": "Oferece proteção contra ataques **DDoS**; **Shield Standard** é incluído automaticamente para recursos compatíveis.",
+      "keywords": [
+        "DDoS",
+        "shield"
+      ]
+    },
+    {
+      "id": "fc027",
+      "domain": 2,
+      "service": "Amazon GuardDuty",
+      "question": "Detecção de ameaças",
+      "answer": "Analisa sinais e logs para identificar **atividade suspeita** e possíveis ameaças em contas e workloads.",
+      "keywords": [
+        "ameaças",
+        "detecção"
+      ]
+    },
+    {
+      "id": "fc028",
+      "domain": 2,
+      "service": "Amazon Inspector",
+      "question": "Vulnerabilidades",
+      "answer": "Verifica **vulnerabilidades de software** e exposição em recursos compatíveis, como EC2 e imagens de contêiner.",
+      "keywords": [
+        "CVE",
+        "vulnerabilidade"
+      ]
+    },
+    {
+      "id": "fc029",
+      "domain": 2,
+      "service": "Amazon Macie",
+      "question": "Dados sensíveis no S3",
+      "answer": "Usa machine learning e padrões para descobrir **dados sensíveis**, como informações pessoais, no **Amazon S3**.",
+      "keywords": [
+        "PII",
+        "S3",
+        "sensível"
+      ]
+    },
+    {
+      "id": "fc030",
+      "domain": 2,
+      "service": "AWS Security Hub",
+      "question": "Visão central de segurança",
+      "answer": "Agrega **descobertas de segurança** e ajuda a acompanhar postura de segurança entre serviços.",
+      "keywords": [
+        "findings",
+        "postura",
+        "segurança"
+      ]
+    },
+    {
+      "id": "fc031",
+      "domain": 2,
+      "service": "AWS CloudTrail",
+      "question": "Auditoria de API",
+      "answer": "Registra **chamadas de API** e eventos de atividade para responder **quem fez o quê e quando**.",
+      "keywords": [
+        "auditoria",
+        "API",
+        "eventos"
+      ]
+    },
+    {
+      "id": "fc032",
+      "domain": 2,
+      "service": "Amazon CloudWatch",
+      "question": "Métricas e alarmes",
+      "answer": "Coleta **métricas**, **logs** e cria **alarmes** para monitoramento operacional.",
+      "keywords": [
+        "métricas",
+        "logs",
+        "alarmes"
+      ]
+    },
+    {
+      "id": "fc033",
+      "domain": 2,
+      "service": "AWS Config",
+      "question": "Mudanças de configuração",
+      "answer": "Registra e avalia **configurações de recursos**, histórico de alterações e conformidade com regras.",
+      "keywords": [
+        "config",
+        "compliance",
+        "mudanças"
+      ]
+    },
+    {
+      "id": "fc034",
+      "domain": 2,
+      "service": "AWS Artifact",
+      "question": "Relatórios de conformidade",
+      "answer": "Portal de acesso a **relatórios de auditoria** e documentos de **compliance** da AWS.",
+      "keywords": [
+        "compliance",
+        "relatórios"
+      ]
+    },
+    {
+      "id": "fc035",
+      "domain": 2,
+      "service": "AWS Trusted Advisor",
+      "question": "Recomendações de boas práticas",
+      "answer": "Verifica oportunidades em **custos**, **segurança**, **tolerância a falhas**, **desempenho**, **limites** e **excelência operacional**.",
+      "keywords": [
+        "recomendações",
+        "otimização"
+      ]
+    },
+    {
+      "id": "fc036",
+      "domain": 3,
+      "service": "Amazon EC2",
+      "question": "Máquinas virtuais",
+      "answer": "Fornece **instâncias virtuais**. O cliente normalmente administra o **sistema operacional**, aplicações e atualizações.",
+      "keywords": [
+        "VM",
+        "IaaS",
+        "autogerenciado"
+      ]
+    },
+    {
+      "id": "fc037",
+      "domain": 3,
+      "service": "AWS Lambda",
+      "question": "Código sem servidor",
+      "answer": "Executa código orientado a eventos sem administrar servidores; cobrança ligada a **requisições** e **duração**.",
+      "keywords": [
+        "serverless",
+        "eventos",
+        "funções"
+      ]
+    },
+    {
+      "id": "fc038",
+      "domain": 3,
+      "service": "Amazon ECS",
+      "question": "Orquestrar contêineres",
+      "answer": "Serviço AWS para executar e orquestrar **contêineres Docker**.",
+      "keywords": [
+        "containers",
+        "docker"
+      ]
+    },
+    {
+      "id": "fc039",
+      "domain": 3,
+      "service": "Amazon EKS",
+      "question": "Kubernetes gerenciado",
+      "answer": "Serviço gerenciado para executar **Kubernetes** na AWS.",
+      "keywords": [
+        "Kubernetes",
+        "containers"
+      ]
+    },
+    {
+      "id": "fc040",
+      "domain": 3,
+      "service": "AWS Fargate",
+      "question": "Compute serverless para contêineres",
+      "answer": "Executa contêineres no ECS ou EKS **sem administrar servidores** subjacentes.",
+      "keywords": [
+        "fargate",
+        "serverless",
+        "containers"
+      ]
+    },
+    {
+      "id": "fc041",
+      "domain": 3,
+      "service": "Elastic Beanstalk",
+      "question": "Implantação de aplicações",
+      "answer": "Simplifica **deploy** e gerenciamento de aplicações web; a AWS provisiona recursos subjacentes.",
+      "keywords": [
+        "PaaS",
+        "deploy",
+        "web"
+      ]
+    },
+    {
+      "id": "fc042",
+      "domain": 3,
+      "service": "Amazon S3",
+      "question": "Armazenamento de objetos",
+      "answer": "Guarda **objetos** em buckets, com alta durabilidade e classes para diferentes padrões de acesso.",
+      "keywords": [
+        "objetos",
+        "bucket",
+        "storage"
+      ]
+    },
+    {
+      "id": "fc043",
+      "domain": 3,
+      "service": "Amazon EBS",
+      "question": "Discos para EC2",
+      "answer": "Volumes de **armazenamento em blocos** usados principalmente com instâncias **EC2**.",
+      "keywords": [
+        "bloco",
+        "disco",
+        "EC2"
+      ]
+    },
+    {
+      "id": "fc044",
+      "domain": 3,
+      "service": "Amazon EFS",
+      "question": "Sistema de arquivos compartilhado",
+      "answer": "Sistema de arquivos **NFS elástico** que pode ser compartilhado por múltiplas instâncias Linux.",
+      "keywords": [
+        "NFS",
+        "arquivos",
+        "Linux"
+      ]
+    },
+    {
+      "id": "fc045",
+      "domain": 3,
+      "service": "Amazon FSx",
+      "question": "Sistemas de arquivos especializados",
+      "answer": "Oferece sistemas de arquivos gerenciados, como **Windows File Server** e **Lustre**.",
+      "keywords": [
+        "Windows",
+        "Lustre",
+        "arquivos"
+      ]
+    },
+    {
+      "id": "fc046",
+      "domain": 3,
+      "service": "S3 Glacier",
+      "question": "Arquivamento",
+      "answer": "Classes do S3 para **arquivamento de baixo custo**, com diferentes tempos de recuperação.",
+      "keywords": [
+        "archive",
+        "frio",
+        "retenção"
+      ]
+    },
+    {
+      "id": "fc047",
+      "domain": 3,
+      "service": "Amazon RDS",
+      "question": "Banco SQL gerenciado",
+      "answer": "Banco **relacional gerenciado** com tarefas automatizadas, como **backups** e manutenção. Suporta MySQL e PostgreSQL.",
+      "keywords": [
+        "SQL",
+        "relacional",
+        "backups"
+      ]
+    },
+    {
+      "id": "fc048",
+      "domain": 3,
+      "service": "Amazon Aurora",
+      "question": "Relacional otimizado para nuvem",
+      "answer": "Banco **relacional** compatível com **MySQL/PostgreSQL**, projetado para alta disponibilidade e desempenho.",
+      "keywords": [
+        "SQL",
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "fc049",
+      "domain": 3,
+      "service": "Amazon DynamoDB",
+      "question": "NoSQL serverless",
+      "answer": "Banco **NoSQL de chave-valor e documentos**, com baixa latência e infraestrutura gerenciada.",
+      "keywords": [
+        "NoSQL",
+        "serverless",
+        "chave-valor"
+      ]
+    },
+    {
+      "id": "fc050",
+      "domain": 3,
+      "service": "Amazon DocumentDB",
+      "question": "Banco de documentos",
+      "answer": "Banco gerenciado de **documentos JSON**, com compatibilidade com APIs do **MongoDB**.",
+      "keywords": [
+        "NoSQL",
+        "documentos",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "fc051",
+      "domain": 3,
+      "service": "Amazon Neptune",
+      "question": "Banco de grafos",
+      "answer": "Banco gerenciado para **relacionamentos complexos**, como redes sociais e detecção de fraudes.",
+      "keywords": [
+        "grafos",
+        "relações"
+      ]
+    },
+    {
+      "id": "fc052",
+      "domain": 3,
+      "service": "Amazon ElastiCache",
+      "question": "Cache em memória",
+      "answer": "Armazena dados frequentemente acessados em **memória** para reduzir latência e carga do banco.",
+      "keywords": [
+        "cache",
+        "Redis",
+        "Valkey"
+      ]
+    },
+    {
+      "id": "fc053",
+      "domain": 3,
+      "service": "Amazon Redshift",
+      "question": "Data warehouse",
+      "answer": "Serviço de **data warehouse** para **análise SQL** de grandes conjuntos de dados.",
+      "keywords": [
+        "analytics",
+        "warehouse",
+        "SQL"
+      ]
+    },
+    {
+      "id": "fc054",
+      "domain": 3,
+      "service": "Amazon Athena",
+      "question": "SQL sobre dados no S3",
+      "answer": "Permite consultar dados diretamente no **Amazon S3 usando SQL**, sem gerenciar servidores.",
+      "keywords": [
+        "SQL",
+        "S3",
+        "serverless"
+      ]
+    },
+    {
+      "id": "fc055",
+      "domain": 3,
+      "service": "AWS Glue",
+      "question": "ETL e catálogo",
+      "answer": "Serviço de integração de dados para **ETL** e **Data Catalog**.",
+      "keywords": [
+        "ETL",
+        "dados",
+        "catálogo"
+      ]
+    },
+    {
+      "id": "fc056",
+      "domain": 3,
+      "service": "Amazon Kinesis",
+      "question": "Dados em streaming",
+      "answer": "Coleta e processa **fluxos de dados em tempo real**.",
+      "keywords": [
+        "streaming",
+        "tempo real"
+      ]
+    },
+    {
+      "id": "fc057",
+      "domain": 3,
+      "service": "Amazon SQS",
+      "question": "Fila de mensagens",
+      "answer": "Desacopla sistemas usando **filas de mensagens**; consumidores processam mensagens assincronamente.",
+      "keywords": [
+        "fila",
+        "desacoplamento"
+      ]
+    },
+    {
+      "id": "fc058",
+      "domain": 3,
+      "service": "Amazon SNS",
+      "question": "Pub/sub e notificações",
+      "answer": "Publica mensagens em **tópicos** para múltiplos assinantes; padrão **fan-out**.",
+      "keywords": [
+        "pubsub",
+        "tópico",
+        "fanout"
+      ]
+    },
+    {
+      "id": "fc059",
+      "domain": 3,
+      "service": "Amazon EventBridge",
+      "question": "Barramento de eventos",
+      "answer": "Roteia **eventos** entre aplicações e serviços com regras de correspondência.",
+      "keywords": [
+        "eventos",
+        "integração"
+      ]
+    },
+    {
+      "id": "fc060",
+      "domain": 3,
+      "service": "AWS Step Functions",
+      "question": "Orquestração de workflows",
+      "answer": "Coordena etapas e serviços em **fluxos de trabalho**, incluindo funções Lambda.",
+      "keywords": [
+        "workflow",
+        "state machine"
+      ]
+    },
+    {
+      "id": "fc061",
+      "domain": 3,
+      "service": "Amazon VPC",
+      "question": "Rede isolada",
+      "answer": "Define uma **rede virtual privada** com sub-redes, rotas e controles de tráfego.",
+      "keywords": [
+        "VPC",
+        "subnet",
+        "rede"
+      ]
+    },
+    {
+      "id": "fc062",
+      "domain": 3,
+      "service": "Security Groups",
+      "question": "Firewall de instância",
+      "answer": "Controle **stateful** de tráfego permitido para interfaces de rede de recursos como EC2.",
+      "keywords": [
+        "stateful",
+        "EC2",
+        "firewall"
+      ]
+    },
+    {
+      "id": "fc063",
+      "domain": 3,
+      "service": "Network ACLs",
+      "question": "Firewall de sub-rede",
+      "answer": "Controle **stateless** de tráfego de entrada e saída em nível de **sub-rede**.",
+      "keywords": [
+        "stateless",
+        "NACL",
+        "subnet"
+      ]
+    },
+    {
+      "id": "fc064",
+      "domain": 3,
+      "service": "Elastic Load Balancing",
+      "question": "Distribuir tráfego",
+      "answer": "Distribui requisições entre múltiplos alvos para melhorar **disponibilidade** e escalabilidade.",
+      "keywords": [
+        "ELB",
+        "load balancer"
+      ]
+    },
+    {
+      "id": "fc065",
+      "domain": 3,
+      "service": "EC2 Auto Scaling",
+      "question": "Ajuste automático de instâncias",
+      "answer": "Adiciona ou remove instâncias **EC2** conforme demanda e políticas de escalabilidade.",
+      "keywords": [
+        "autoscaling",
+        "elasticidade"
+      ]
+    },
+    {
+      "id": "fc066",
+      "domain": 3,
+      "service": "Amazon Route 53",
+      "question": "DNS gerenciado",
+      "answer": "Serviço de **DNS**, registro de domínios e verificações de integridade.",
+      "keywords": [
+        "DNS",
+        "domínio",
+        "roteamento"
+      ]
+    },
+    {
+      "id": "fc067",
+      "domain": 3,
+      "service": "Amazon CloudFront",
+      "question": "CDN global",
+      "answer": "Distribui conteúdo por **edge locations**, reduzindo latência para usuários globais.",
+      "keywords": [
+        "CDN",
+        "edge",
+        "cache"
+      ]
+    },
+    {
+      "id": "fc068",
+      "domain": 3,
+      "service": "AWS Direct Connect",
+      "question": "Conexão dedicada",
+      "answer": "Oferece **conectividade de rede dedicada** entre instalações do cliente e a AWS.",
+      "keywords": [
+        "dedicada",
+        "híbrida"
+      ]
+    },
+    {
+      "id": "fc069",
+      "domain": 3,
+      "service": "AWS Site-to-Site VPN",
+      "question": "Túnel criptografado",
+      "answer": "Conecta redes locais à AWS por **VPN IPsec** pela internet.",
+      "keywords": [
+        "VPN",
+        "híbrida",
+        "IPsec"
+      ]
+    },
+    {
+      "id": "fc070",
+      "domain": 3,
+      "service": "AWS CloudFormation",
+      "question": "Infraestrutura como código",
+      "answer": "Cria e atualiza recursos por meio de **templates declarativos**.",
+      "keywords": [
+        "IaC",
+        "template",
+        "automação"
+      ]
+    },
+    {
+      "id": "fc071",
+      "domain": 3,
+      "service": "AWS Systems Manager",
+      "question": "Operações de recursos",
+      "answer": "Ferramentas para **gerenciar e automatizar operações** em instâncias e recursos.",
+      "keywords": [
+        "patch",
+        "automation",
+        "fleet"
+      ]
+    },
+    {
+      "id": "fc072",
+      "domain": 4,
+      "service": "AWS Free Tier",
+      "question": "Experimentar serviços",
+      "answer": "Ofertas de uso gratuito variam por serviço e tipo de conta; confira **limites e elegibilidade** atuais.",
+      "keywords": [
+        "free tier",
+        "limites"
+      ]
+    },
+    {
+      "id": "fc073",
+      "domain": 4,
+      "service": "AWS Pricing Calculator",
+      "question": "Estimar custos",
+      "answer": "Cria **estimativas de preço antes da implantação** de arquiteturas AWS.",
+      "keywords": [
+        "estimativa",
+        "previsão"
+      ]
+    },
+    {
+      "id": "fc074",
+      "domain": 4,
+      "service": "AWS Cost Explorer",
+      "question": "Analisar gastos",
+      "answer": "Visualiza **custos históricos**, tendências e previsões de consumo.",
+      "keywords": [
+        "custos",
+        "tendências"
+      ]
+    },
+    {
+      "id": "fc075",
+      "domain": 4,
+      "service": "AWS Budgets",
+      "question": "Alertas de orçamento",
+      "answer": "Define **orçamentos** e alertas quando custos ou uso atingem limites definidos.",
+      "keywords": [
+        "budget",
+        "alerta"
+      ]
+    },
+    {
+      "id": "fc076",
+      "domain": 4,
+      "service": "Cost and Usage Report",
+      "question": "Detalhamento de cobrança",
+      "answer": "Exporta dados detalhados de **custos e uso** para análise.",
+      "keywords": [
+        "CUR",
+        "relatório",
+        "billing"
+      ]
+    },
+    {
+      "id": "fc077",
+      "domain": 4,
+      "service": "AWS Organizations Consolidated Billing",
+      "question": "Cobrança consolidada",
+      "answer": "Reúne cobranças de múltiplas contas em uma **conta pagadora**, podendo agregar benefícios de preço.",
+      "keywords": [
+        "consolidated",
+        "billing"
+      ]
+    },
+    {
+      "id": "fc078",
+      "domain": 4,
+      "service": "On-Demand Instances",
+      "question": "Sem compromisso",
+      "answer": "Pague capacidade de computação **conforme uso**, sem compromisso de longo prazo.",
+      "keywords": [
+        "on demand",
+        "flexibilidade"
+      ]
+    },
+    {
+      "id": "fc079",
+      "domain": 4,
+      "service": "Savings Plans",
+      "question": "Compromisso de uso",
+      "answer": "Descontos mediante **compromisso de gasto por hora** por 1 ou 3 anos.",
+      "keywords": [
+        "savings",
+        "compromisso"
+      ]
+    },
+    {
+      "id": "fc080",
+      "domain": 4,
+      "service": "Reserved Instances",
+      "question": "Reserva de capacidade/preço",
+      "answer": "Modelo de desconto mediante **compromisso de 1 ou 3 anos**; características variam por tipo de reserva.",
+      "keywords": [
+        "reserved",
+        "desconto"
+      ]
+    },
+    {
+      "id": "fc081",
+      "domain": 4,
+      "service": "Spot Instances",
+      "question": "Capacidade ociosa",
+      "answer": "Instâncias EC2 com **desconto elevado**, mas que **podem ser interrompidas**.",
+      "keywords": [
+        "spot",
+        "interrupção"
+      ]
+    },
+    {
+      "id": "fc082",
+      "domain": 4,
+      "service": "AWS Support Basic",
+      "question": "Cobrança e conta",
+      "answer": "Suporte básico sem custo adicional, com ajuda de **conta e cobrança** e documentação.",
+      "keywords": [
+        "basic",
+        "gratuito"
+      ]
+    },
+    {
+      "id": "fc083",
+      "domain": 4,
+      "service": "AWS Support Business Support+",
+      "question": "Suporte técnico 24/7",
+      "answer": "Plano com acesso técnico **24/7 por telefone, chat e web** e orientação de produção.",
+      "keywords": [
+        "business+",
+        "telefone",
+        "chat"
+      ]
+    },
+    {
+      "id": "fc084",
+      "domain": 4,
+      "service": "AWS Support Enterprise",
+      "question": "TAM e operações críticas",
+      "answer": "Inclui **TAM designado** e resposta prioritária para incidentes críticos.",
+      "keywords": [
+        "enterprise",
+        "TAM"
+      ]
+    },
+    {
+      "id": "fc085",
+      "domain": 4,
+      "service": "AWS Support Developer (legado)",
+      "question": "Suporte para desenvolvimento",
+      "answer": "Plano presente em materiais antigos, com **suporte técnico por e-mail** e atendimento em horário comercial.",
+      "keywords": [
+        "developer",
+        "legado",
+        "email"
+      ]
+    },
+    {
+      "id": "fc086",
+      "domain": 4,
+      "service": "AWS Support Business (legado)",
+      "question": "Produção 24/7",
+      "answer": "Plano antigo com **telefone e chat 24/7**; não confundir com **Business Support+**.",
+      "keywords": [
+        "business",
+        "legado",
+        "telefone"
+      ]
+    },
+    {
+      "id": "fc087",
+      "domain": 4,
+      "service": "AWS Support Enterprise On-Ramp (legado)",
+      "question": "Acompanhamento proativo",
+      "answer": "Plano antigo intermediário com **acesso a equipe de TAMs** e orientação proativa.",
+      "keywords": [
+        "on-ramp",
+        "legado",
+        "TAM"
+      ]
+    }
+  ]
+}
